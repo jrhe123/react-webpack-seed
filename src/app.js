@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
+
+// Components 
+import { Widget } from './components/containers'
+
 class App extends Component {
 
 	render(){
 		return (
 			<div>
-				My App
+				<Widget />
 			</div>
 		)
 	}
